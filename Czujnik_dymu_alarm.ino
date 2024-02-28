@@ -54,7 +54,7 @@ void Powiadomienie_SMS(){
   Akualizacjia_komend();
   SIM800L.println("AT+CMGF=1\r");  
   Akualizacjia_komend();  
-  SIM800L.println("AT+CMGS=\"+48507289182\"\r");  
+  SIM800L.println("AT+CMGS=\"+48***\"\r");  
   Akualizacjia_komend();
   SIM800L.println(Czas_wydarzenia);       
   Akualizacjia_komend();
