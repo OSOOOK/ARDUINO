@@ -169,7 +169,7 @@ void loop() {
   mySerial.println("AT+CMGF=1"); 
   updateSerial();
   Serial.println("NUMER"); 
-  mySerial.println("AT+CMGS=\"+48506259022\""); 
+  mySerial.println("AT+CMGS=\"+48***\""); 
   updateSerial();
   Serial.println("ALARM"); 
   mySerial.print("ALARM"); 
