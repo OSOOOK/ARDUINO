@@ -1,1 +1,1 @@
-Ulepszona wersja projektu systemu przeciwpozarwego
+Ulepszona wersja projektu systemu przeciwpozarowego
