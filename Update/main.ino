@@ -83,7 +83,7 @@ void Rooms::SMS_message(int Czas_m = 0)
   Update_command();
   SIM800L.println("AT+CMGF=1\r");
   Update_command();
-  SIM800L.println("AT+CMGS=\"+48507289182\"\r");
+  SIM800L.println("AT+CMGS=\"+48***\"\r");
   Update_command();
   SIM800L.println(time_alert);
   Update_command();
